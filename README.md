@@ -21,4 +21,4 @@ Keymaps were copied and pasted from ThePrimeagen's init.lua. Same thing with set
 - autopairs.lua: Having to write both curly-brackets or parenthesis myself gives me headaches.
 - undotree.lua: How many times have I deleted something from last night and wanted to recover it just to see if that thing I deleted broke the whole thing, or just wanted to work on top of it? 
 
-Since I've mentioned ThePrimeagen so much, you can find him (here)[https://github.com/ThePrimeagen/ThePrimeagen].
+Since I've mentioned ThePrimeagen so much, you can find him [here](https://github.com/ThePrimeagen/ThePrimeagen).
