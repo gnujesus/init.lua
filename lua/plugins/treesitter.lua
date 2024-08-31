@@ -6,7 +6,7 @@ return {
       -- A list of parser names, or "all"
       ensure_installed = {
         "vimdoc", "javascript", "typescript", "c", "lua", "rust",
-        "jsdoc", "bash", "cpp",
+        "jsdoc", "bash", "cpp", "php"
       },
 
       -- Install parsers synchronously (only applied to `ensure_installed`)
@@ -30,6 +30,12 @@ return {
         -- Instead of true it can also be a list of languages
         additional_vim_regex_highlighting = { "markdown" },
       },
+
+      query_linter = {
+        enable = true,
+        use_virtual_text = true,
+        lint_event = {"BufWrite", "CursorHold"},
+      }
     })
 
     local treesitter_parser_config = require("nvim-treesitter.parsers").get_parser_configs()
